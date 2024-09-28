@@ -1,0 +1,28 @@
+services:
+  api:
+    container_name: northwin
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - MONGO_URI=mongodb://mongodb:27017/northwin
+      - OAUTH_AUDIENCE=http://localhost:3000/api-customer
+      - OAUTH_URL=https://dev-6kheafszlnh3mean.us.auth0.com/oauth/token
+    depends_on:
+      - mongodb
+    volumes:
+      - .:/usr/src/app
+  mongodb:
+    container_name: northwindatabase
+    image: mongo:4.0.0
+    ports:
+      - "27017:27017"
+    logging:
+      driver: none
+    volumes:
+          - db_data:/data/db
+volumes:
+  db_data:
+
+
+   

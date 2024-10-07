@@ -66,6 +66,12 @@ Install my-project with npm
   npm install 
 ```
 build an image with docker
+
+```bash
+  docker compose build
+```
+run:
+
 ```bash
   docker compose build
 ``
@@ -73,8 +79,8 @@ build an image with docker
 
 ## Screenshots
 routes documented in swagger
-![App Screenshot](./src/docs/screenshots/screenshots-1.png)
-![App Screenshot](./src/docs/screenshots/screenshots-2.png)
-![App Screenshot](./src/docs/screenshots/screenshots-3.png)
+  ![App Screenshot](./src/docs/screenshots/screenshots-1.png)
+  ![App Screenshot](./src/docs/screenshots/screenshots-2.png)
+  ![App Screenshot](./src/docs/screenshots/screenshots-3.png)
 
 

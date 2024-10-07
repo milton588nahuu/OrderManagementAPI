@@ -73,7 +73,7 @@ build an image with docker
 run:
 
 ```bash
-  docker compose build
+  docker compose up
 ```
 
 

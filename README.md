@@ -74,13 +74,15 @@ run:
 
 ```bash
   docker compose build
-``
+```
 
 
 ## Screenshots
+
 routes documented in swagger
-  ![App Screenshot](./src/docs/screenshots/screenshots-1.png)
-  ![App Screenshot](./src/docs/screenshots/screenshots-2.png)
-  ![App Screenshot](./src/docs/screenshots/screenshots-3.png)
+
+![App Screenshot](./src/docs/screenshots/screenshots-1.png)
+![App Screenshot](./src/docs/screenshots/screenshots-2.png)
+![App Screenshot](./src/docs/screenshots/screenshots-3.png)
 
 

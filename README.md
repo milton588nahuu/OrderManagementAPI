@@ -54,7 +54,7 @@ To run this project, you will need to add the following environment variables to
 
 `OAUTH_URL=https://dev-6kheafszlnh3mean.us.auth0.com/oauth/token`
 
-# Server Configurationor
+## Server Configuration
 `PORT=3000` Port on which the application is running
 
 

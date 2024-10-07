@@ -4,9 +4,9 @@ import swaggerJSDoc,{OAS3Definition,OAS3Options} from "swagger-jsdoc";
 const swaggerDefinition : OAS3Definition = {
       openapi: '3.0.0',
       info: {
-        title: 'My API',
+        title: 'OrderManagementAPI',
         version: '1.0.0',
-        description:"A simple express library Api"
+        description:"This API provides functionality for managing orders within a system. It allows users to create, update, retrieve, and delete orders, as well as manage order statuses and items. The API is designed for use by both internal systems and external clients, offering secure access to order data and streamlined order processing."
       },
       servers: [
         {

@@ -44,11 +44,11 @@ Common Authentication Methods in cURL
 To run this project, you will need to add the following environment variables to your .env file
 
 
-#Database Configuration
+## Database Configuration
 
 `MONGO_URI=mongodb://localhost:porto/northwin` 
 
-#the applications authorized by issuing the following API call
+## the applications authorized by issuing the following API call
 
 `OAUTH_AUDIENCE=http://localhost:3000/api-customer`
 

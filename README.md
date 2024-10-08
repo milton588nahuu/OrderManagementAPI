@@ -1,7 +1,5 @@
 # **OrderManagementAPI**
 
-_Aim_:
-
     is used to manage data related to a sales or inventory system.
     It allows you to create, read, update, and delete (CRUD) operations
     about categories, customers, employees, order details, orders, products, carriers, and suppliers.

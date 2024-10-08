@@ -1,4 +1,4 @@
-:red_circle: **OrderManagementAPI**
+# :shipit: **OrderManagementAPI**
 
 _Aim_:
 
@@ -17,7 +17,7 @@ such as_:
     Customer relationship management (CRM) systems to store customer data and track interactions.
 
 #
-  **Tech Stack**
+## **Tech Stack**
 
 ![Node](https://img.shields.io/badge/Nodejs%20-grey?style=for-the-badge&logo=nodedotjs)
 
@@ -32,7 +32,7 @@ such as_:
 ![Docker](https://img.shields.io/badge/Docker%20-grey?style=for-the-badge&logo=docker)
 
 #
-  **Common Authentication Methods in cURL**
+##  **Common Authentication Methods in cURL**
 
     curl --request POST \
     --url https://dev-6kheafszlnh3mean.us.auth0.com/oauth/token \
@@ -41,7 +41,7 @@ such as_:
 
 
 # 
-  **Environment Variables**
+##  **Environment Variables**
 
 _To run this project, you will need to add the following environment variables to your .env file_
 
@@ -61,7 +61,7 @@ _Server Configuration_
 `PORT=3000` Port on which the application is running
 
 #
-**Installation**
+## **Installation**
 
 _Install my-project with npm_
 
@@ -81,7 +81,7 @@ _run_:
 
 
 #
-**Screenshots**
+## **Screenshots**
 
 _routes documented in swagger_
 

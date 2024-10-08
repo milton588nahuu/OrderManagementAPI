@@ -1,5 +1,4 @@
-
-  <span style="color:red"> OrderManagementAPI <span>
+<span style="color:red">OrderManagementAPI<span>
 
 _Aim_:
 

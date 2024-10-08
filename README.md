@@ -1,4 +1,4 @@
-# :shipit: **OrderManagementAPI**
+# **OrderManagementAPI**
 
 _Aim_:
 
@@ -16,7 +16,7 @@ such as_:
     Inventory management systems to manage product stock levels and supplier relationships.
     Customer relationship management (CRM) systems to store customer data and track interactions.
 
-#
+
 ## **Tech Stack**
 
 ![Node](https://img.shields.io/badge/Nodejs%20-grey?style=for-the-badge&logo=nodedotjs)
@@ -31,7 +31,7 @@ such as_:
 
 ![Docker](https://img.shields.io/badge/Docker%20-grey?style=for-the-badge&logo=docker)
 
-#
+
 ##  **Common Authentication Methods in cURL**
 
     curl --request POST \
@@ -40,8 +40,8 @@ such as_:
     --data '{"client_id":"n7NT67hwzegTK45FY3215FHISKwGHYz7","client_secret":"sZlilc-bQFuR0TMOEydUZ-Ge4ffYIU5xqbQNYcXvLjDl8qH2f7TGMIQgbOqnHzCj","audience":"https://api-northwin","grant_type":"client_credentials"}'
 
 
-# 
-##  **Environment Variables**
+ 
+##  **Environment Variables** :shipit:
 
 _To run this project, you will need to add the following environment variables to your .env file_
 
@@ -60,7 +60,7 @@ _the applications authorized by issuing the following API call_
 _Server Configuration_
 `PORT=3000` Port on which the application is running
 
-#
+
 ## **Installation**
 
 _Install my-project with npm_
@@ -80,7 +80,7 @@ _run_:
 ```
 
 
-#
+
 ## **Screenshots**
 
 _routes documented in swagger_

@@ -1,6 +1,4 @@
-<span style="color:red">OrderManagementAPI<span>
-
-_Aim_:
+# **OrderManagementAPI**
 
     is used to manage data related to a sales or inventory system.
     It allows you to create, read, update, and delete (CRUD) operations
@@ -16,8 +14,8 @@ such as_:
     Inventory management systems to manage product stock levels and supplier relationships.
     Customer relationship management (CRM) systems to store customer data and track interactions.
 
-#
-  **Tech Stack**
+
+## **Tech Stack**
 
 ![Node](https://img.shields.io/badge/Nodejs%20-grey?style=for-the-badge&logo=nodedotjs)
 
@@ -31,8 +29,8 @@ such as_:
 
 ![Docker](https://img.shields.io/badge/Docker%20-grey?style=for-the-badge&logo=docker)
 
-#
-  **Common Authentication Methods in cURL**
+
+##  **Common Authentication Methods in cURL**
 
     curl --request POST \
     --url https://dev-6kheafszlnh3mean.us.auth0.com/oauth/token \
@@ -40,8 +38,8 @@ such as_:
     --data '{"client_id":"n7NT67hwzegTK45FY3215FHISKwGHYz7","client_secret":"sZlilc-bQFuR0TMOEydUZ-Ge4ffYIU5xqbQNYcXvLjDl8qH2f7TGMIQgbOqnHzCj","audience":"https://api-northwin","grant_type":"client_credentials"}'
 
 
-# 
-  **Environment Variables**
+ 
+##  **Environment Variables** :shipit:
 
 _To run this project, you will need to add the following environment variables to your .env file_
 
@@ -60,8 +58,8 @@ _the applications authorized by issuing the following API call_
 _Server Configuration_
 `PORT=3000` Port on which the application is running
 
-#
-**Installation**
+
+## **Installation**
 
 _Install my-project with npm_
 
@@ -80,8 +78,8 @@ _run_:
 ```
 
 
-#
-**Screenshots**
+
+## **Screenshots**
 
 _routes documented in swagger_
 

@@ -31,7 +31,7 @@ afterAll(async () => {
     await dbDisconnect()
 });
 
-test('POST requests return status 200', async () => {
+test('POST requests return status 201', async () => {
     const executed = 201;
     const { status: result, body: body_t } = await request(app)
         .post("/api/v1/categ")

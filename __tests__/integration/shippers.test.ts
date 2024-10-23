@@ -31,7 +31,7 @@ afterAll(async () => {
     await dbDisconnect();
 });
 
-test('POST requests return status 200 and the item was deleted', async () => {
+test('POST requests return status 201 and the item was deleted', async () => {
     const executed = 201;
 
     const { status: result, body: body_t } = await request(app)
